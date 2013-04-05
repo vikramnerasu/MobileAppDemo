@@ -293,4 +293,7 @@ public class HelloEffects extends Activity implements GLSurfaceView.Renderer {
         mEffectView.requestRender();
         return true;
     }
+    public boolean tempFunction(MenuItem item) {
+        return true;
+    }
 }
